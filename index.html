@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>The Good Contract</title>
+  <link rel="stylesheet" href="app5.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.2.7/pdfmake.js.map"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+  </head>
+<body>
+  <div class="top-bar">
+  <h1>The Good Contract</h1>
+  <div class="description-right">
+    <p>For perfect use please use a browser on your computer.</p>
+  </div>
+</div>
+
+
+
+<div class="container">
+  <textarea id="nameInput" name="name" placeholder="Name" onkeydown="handleEnter(event)"></textarea><br>
+  <textarea name="company" placeholder="Name of Company" onkeydown="handleEnter(event)"></textarea><br>
+  
+  <h2 class="titel line-through" id="titel1">PURPOSE OF THIS CONTRACT</h2>
+  <p class="content line-through" id="content1">By entering into this agreement, both parties acknowledge the importance of nurturing meaningful connections and promoting emotional well-being.</p>
+
+  <h2 class="titel line-through" id="titel2">§1 PROMOTING SELF CARE</h2>
+  <p class="content line-through" id="content2">§1.1 The employer is committed to promoting the health and well-being of employees.<br>
+    §1.2 The employer recognizes the importance of work-life balance and supports employees in balancing their work and private lives.<br>
+    §1.3 The employer recognizes the importance of appreciation and recognition for the self-esteem of employees.</p>
+
+  <h2 class="titel line-through" id="titel3">§2 DEVELOPMENT OPPORTUNITIES</h2>
+  <p class="content line-through" id="content3">The employer encourages the professional and personal development of staff to build their confidence and skills.</p>
+
+  <h2 class="titel line-through" id="titel4">§3 STRESS</h2>
+  <p class="content line-through" id="content4">The employee commits to pay attention to their own mental health and communicate the first signs of stress and excessive demands with The employer.</p>
+
+  <h2 class="titel line-through" id="titel5">§4 COMMUNICATION</h2>
+  <p class="content line-through" id="content5">§4.1 Both parties agree that the communication between The employee and The employer will be professional and on a factual level. Furthermore, both parties strive to have honest and constructive communication.<br>
+    §4.2 Communication takes place exclusively during working hours, in person or by e-mail. There is explicitly no communication outside working hours, via personal mobile phone numbers or e-mail.<br>
+    §4.3 Both parties agree to use non-violent communication methods.<br>
+    §4.4 Both parties agree to maintain active listening.</p>
+
+  <h2 class="titel line-through" id="titel6">§5 INCLUSIVENESS AND ANTI DISCRIMINATORY</h2>
+  <p class="content line-through" id="content6">§5.1 Both parties create an inclusive and respectful work environment. Discrimination, bullying, and harassment are not tolerated, and care is taken to ensure that all employees are treated equally.<br>
+    §5.2 It is expressly prohibited to make sexist and racist comments in the workplace, whether verbally, in writing, or in any other form of communication. In particular, offensive, discriminatory, or derogatory comments based on gender, gender identity, ethnic origin, skin color, religion, sexual orientation, or any other protected characteristic will not be tolerated.<br>
+    §5.3 Every employee has the right to speak out against sexist and racist comments without fear of consequences or negative impact on their professional situation. The employer shall ensure that complaints and reports of such comments are treated confidentially, and that appropriate measures are taken to protect those concerned and to punish the misconduct. Ensuring that there is no form of retaliation or discrimination against those who stand up for equality and against discrimination.</p>
+
+  <h2 class="titel line-through" id="titel7">§6 GENDER EQUALITY</h2>
+  <p class="content line-through" id="content7">§6.1 The employer is committed to promoting equal opportunities and gender equality in the workplace. The aim is to create a working environment that provides women with equal professional opportunities and development prospects as their male colleagues.<br>
+    §6.2 The employer will actively promote the participation and involvement of women in all areas of the company. This includes access to leadership positions, training opportunities, and professional development programs.<br>
+    §6.3 Measures will be taken to address gender pay gaps and ensure fair pay. The employer will conduct regular pay reviews to ensure that women are paid equally for work of equal value.</p>
+
+  <h2 class="titel line-through" id="titel8">§7 PARENTAL LEAVE</h2>
+  <p class="content line-through" id="content8">§7.1 The employer will not discriminate on the basis of taking parental leave. Employees taking parental leave shall not be disadvantaged in any way, whether in terms of career opportunities, salary increases, or other working conditions.<br>
+    §7.2 The employer will actively work to promote an open and supportive corporate culture that enables all employees to exercise their parental leave rights without fear of prejudice or disadvantage.</p>
+
+  <h2 class="titel line-through" id="titel9">§8 RESPONSIBILITIES</h2>
+  <p class="content line-through" id="content9">The employee commits to communicate if the feeling arises that assigned tasks don't belong into the field of work and are a hazard for working productively and pleased.</p>
+
+  <h2 class="titel line-through" id="titel10">§9 BOUNDARIES</h2>
+  <p class="content line-through" id="content10">§9.1 As part of their commitment, The employer pledges to refrain from exploiting The employee.<br>
+    §9.2 The employee commits to effectively communicate their personal boundaries. Additionally, The employer assures to uphold and honor these boundaries.</p>
+</div>
+
+
+
+  <div class="title-buttons">
+    <div class="button-container">
+      <button class="toggle-button" data-target="content1">PURPOSE OF THIS CONTRACT</button><br>
+      <button class="toggle-button" data-target="content2">PROMOTING SELF CARE</button><br>
+      <button class="toggle-button" data-target="content3">DEVELOPMENT OPPORTUNITIES</button><br>
+      <button class="toggle-button" data-target="content4">STRESS</button><br>
+      <button class="toggle-button" data-target="content5">COMMUNICATION</button><br>
+      <button class="toggle-button" data-target="content6">INCLUSIVENESS AND ANTI DISCRIMINATORY</button><br>
+      <button class="toggle-button" data-target="content7">GENDER EQUALITY</button><br>
+      <button class="toggle-button" data-target="content8">PARENTAL LEAVE</button><br>
+      <button class="toggle-button" data-target="content9">RESPONSIBILITIES</button><br>
+      <button class="toggle-button" data-target="content10">BOUNDARIES</button><br>
+      
+    </div>
+  </div>
+
+
+  
+  <div class="right-content">
+  
+  
+    <h2>EXPERIENCES</h2>
+    <p>Currently, I am very happy with my working environment. This is certainly also due to the fact that I am encountering new strategies related to mental health for the first time. It is nice to have a voice even with a smaller position and to be heard and appreciated.</p>
+    <p>I had to work on my free day because I opened text and groupchat makes me laugh all the time</p>
+    <p>I feel that I never have enough time to develop a reflective and a meditate decision. I have to have fast decisions and opinions and explain them the with a lot of confidence, is not well seen to have doubts, and for me doubts are necessary to well achieve the problem.</p>
+    <p>66,7% feel that they can fulfil their wishes and goals at their workplace</p>
+    <p>I feel like there’s a lot of space for improvement in terms of feedback and talking about topics in general. A lot of people hold back and don’t give their opinions</p>
+    <p>52,4% rate their workload as high but adjustable</p>
+    <p>I once worked for free for a high workload. It was the unhealthiest environment I have ever been in. I didn't know how to deal with it.</p>
+    <div class="button-container2">
+        <button id="prevButton">Zurück</button>
+        <button id="nextButton">Weiter</button>
+      </div>
+   
+      
+  </div>
+  
+ 
+  <script>
+    //texteingabe wird in text eingefügt.
+  // Funktion zum Ersetzen der Platzhalter
+  function handleEnter(event) {
+    if (event.key === "Enter") {
+      event.preventDefault(); // Verhindert den Zeilenumbruch bei Enter
+      
+      var name = document.getElementById("nameInput").value;
+      var company = document.getElementsByName("company")[0].value;
+
+      var paragraphs = document.querySelectorAll('.content');
+
+      for (var i = 0; i < paragraphs.length; i++) {
+        var paragraph = paragraphs[i];
+
+        // Platzhalter "[NAME]" ersetzen, wenn name nicht leer ist
+        if (name.trim() !== "") {
+          paragraph.innerHTML = paragraph.innerHTML.replace(/The employee/g, name);
+        }
+
+        // Platzhalter "[COMPANY]" ersetzen, wenn company nicht leer ist
+        if (company.trim() !== "") {
+          paragraph.innerHTML = paragraph.innerHTML.replace(/The employer/g, company);
+          paragraph.innerHTML = paragraph.innerHTML.replace(/\[COMPANY\]/g, company);
+        }
+      }
+    }
+  }
+
+
+    //vor und zurück buttons
+    const paragraphs = document.querySelectorAll('.right-content p');
+let currentParagraphIndex = 0;
+
+function showParagraph(index) {
+  paragraphs.forEach((paragraph, i) => {
+    if (i === index) {
+      paragraph.style.display = 'block';
+    } else {
+      paragraph.style.display = 'none';
+    }
+  });
+}
+
+function showNextParagraph() {
+  currentParagraphIndex++;
+  if (currentParagraphIndex >= paragraphs.length) {
+    currentParagraphIndex = 0;
+  }
+  showParagraph(currentParagraphIndex);
+}
+
+function showPreviousParagraph() {
+  currentParagraphIndex--;
+  if (currentParagraphIndex < 0) {
+    currentParagraphIndex = paragraphs.length - 1;
+  }
+  showParagraph(currentParagraphIndex);
+}
+
+const prevButton = document.getElementById('prevButton');
+prevButton.addEventListener('click', showPreviousParagraph);
+
+const nextButton = document.getElementById('nextButton');
+nextButton.addEventListener('click', showNextParagraph);
+
+showNextParagraph();
+    //bis hier
+//das text durchgestrichen
+const toggleButtons = document.querySelectorAll('.toggle-button');
+
+toggleButtons.forEach((button) => {
+  button.addEventListener('click', function () {
+    const targetId = this.getAttribute('data-target');
+    const contentElement = document.getElementById(targetId);
+    const titleElement = document.getElementById(`titel${targetId.slice(-1)}`);
+
+    if (contentElement.classList.contains('line-through')) {
+      contentElement.classList.remove('line-through');
+      titleElement.classList.remove('line-through');
+    } else {
+      contentElement.classList.add('line-through');
+      titleElement.classList.add('line-through');
+    }
+  });
+});
+
+  </script>
+
+
+  <div class="contact-buttons">
+    <a href="how-to.html" target="_self"><button>How To</button></a>
+  <a href="about-us.html" target="_self"><button>About us</button></a>
+  <a href="contact.html" target="_self"><button>Contact</button></a>
+
+  <button class="button-anders" onclick="generatePDF()">Download</button>
+  </div>
+
+  
+  <script>
+    //download pdf datei
+    // Download PDF Datei
+
+
+    function generatePDF() {
+      var container = document.querySelector('.container');
+      var paragraphs = container.querySelectorAll('p');
+      var selectedParagraphs = Array.from(paragraphs).filter((paragraph) => !paragraph.classList.contains('line-through'));
+      
+      var content = '';
+  for (var i = 0; i < selectedParagraphs.length; i++) {
+    var paragraph = selectedParagraphs[i];
+    var title = paragraph.previousElementSibling.textContent.trim();
+    var text = paragraph.textContent.trim();
+
+    content += title + '\n' + text + '\n\n';
+  }
+
+
+      var { jsPDF } = window.jspdf;
+            var doc = new jsPDF();
+     
+            doc.setFont('helvetica', 'normal'); // Setze die Schriftart auf "helvetica" und normalen Stil
+  doc.setFontSize(12);
+
+  doc.setFontSize(50); // Setze die Schriftgröße für den Titel auf 70pt
+  doc.text("The Good Contract", 20, 20); // Füge den Titel hinzu, positioniert bei x=20, y=20
+
+  doc.setFontSize(12);
+  var margin = 20; // Ränder mit 20px Abstand
+  var maxWidth = doc.internal.pageSize.getWidth() - 2 * margin;
+
+  // Abstand zwischen Überschrift und erstem Absatz
+  var spaceAfterTitle = 15;
+  var y = 20 + spaceAfterTitle;
+
+  var lines = doc.splitTextToSize(content, maxWidth);
+  var lineHeightParagraphs = doc.getTextDimensions('A').h; // Zeilenhöhe basierend auf der Schriftgröße
+  for (var i = 0; i < lines.length; i++) {
+    doc.setFontSize(12); // Zurück zur normalen Schriftgröße
+    doc.text(lines[i], margin, y);
+    y += lineHeightParagraphs;
+  }
+
+  var lineY = doc.internal.pageSize.getHeight() - 30; // Position der Striche
+
+// Zeichne den oberen Strich
+doc.setLineWidth(0.5);
+doc.line(margin, lineY, maxWidth + margin, lineY);
+
+// Position für den Text
+var textY = lineY + 10;
+
+// Füge den ersten Text hinzu (aus dem Texteingabefeld "nameInput")
+var name = document.getElementById("nameInput").value;
+doc.setFontSize(12);
+doc.text("Signature of employee " + name, margin, textY);
+
+// Füge den zweiten Text hinzu (aus dem Texteingabefeld "company")
+var company = document.getElementsByName("company")[0].value;
+doc.text("Signature of employer " + company, margin + 100, textY);
+
+  doc.save("The Good Contract.pdf");
+
+
+    }
+
+</script>
+</body>
+<footer>
+  <p>&copy; 2023 Ari, Elise, Malou</p>
+</footer>
+</html>
