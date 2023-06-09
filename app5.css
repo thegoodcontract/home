@@ -125,7 +125,12 @@ button {
 
  
  .line-through {
-    text-decoration: line-through solid 5pt;
+     text-decoration-line: line-through;
+  -webkit-text-decoration-line: line-through;
+  text-decoration-color: black;
+  -webkit-text-decoration-color: black;
+  text-decoration-thickness: 5pt;
+  -webkit-text-decoration-thickness: black;
   }
 
 
